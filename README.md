@@ -8,8 +8,8 @@ Chalenge made the Sick Puppy Sound Pack for Aces High III and gave it to the com
 November 2022. The sounds here are his: every plane he covered plays his engines, and the planes added since are
 built on his designs.
 
-This copy has been repaired and filled in so it can keep being flown. It is shared with the blessing of Fuji
-(The Fugitive), his XO, and of his squadmates, who asked only one thing: that it is always known as
+This copy has been repaired and filled in so it can keep being flown. It is shared with the permission of Fuji
+(The Fugitive) and the blessing of Chalenge's squadmates, who asked only one thing: that it is always known as
 **Chalenge's sound pack**.
 
 ## Download
