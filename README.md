@@ -14,7 +14,7 @@ This copy has been repaired and filled in so it can keep being flown. It is shar
 
 ## Download
 
-Get **SickPuppySounds-fixed-v17.zip** from the [Releases](../../releases) page.
+Get **SickPuppySounds-fixed-v18.zip** from the [Releases](../../releases) page.
 
 ## Install
 
@@ -33,6 +33,13 @@ Get **SickPuppySounds-fixed-v17.zip** from the [Releases](../../releases) page.
 
 **Back to stock sounds:** delete or rename the `CustomSounds\Desktop` folder and restart the game.
 
+## What's new in v18
+
+- The T-34/76 and T-34/85 are back on the game's own stock sounds for now, and so is any tracked vehicle the pack
+  had no sound of its own for. One player got a flood of "... track sound ... not stopping after timeout" messages
+  with the T-34s; until that's tracked down, they play stock. Everything else is exactly as v17.
+- Updating from v17: copying just `CustomDefault.strings.bank` is enough (or all four files, as always).
+
 ## What's been fixed
 
 - Levels evened out between planes, so the one "your engine" slider works for all of them; cruise matches stock.
@@ -41,6 +48,7 @@ Get **SickPuppySounds-fixed-v17.zip** from the [Releases](../../releases) page.
 - Start-ups and shut-downs capped at each engine's full-throttle level; WEP clearly audible.
 - Every sound stops when the game switches it off: no more "... not stopping" messages in the text buffer.
 - The M4A3(76) tracks follow the tank's speed.
+- T-34s (and tracked vehicles without their own sound in the pack) on stock sounds for now (v18).
 - About 50 planes the original pack didn't cover now have engines; the WWI planes stay on stock sounds.
 
 ## Credits
