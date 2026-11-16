@@ -14,7 +14,10 @@ This copy has been repaired and filled in so it can keep being flown. It is shar
 
 ## Download
 
-Get **SickPuppySounds-fixed-v19.zip** from the [Releases](../../releases) page.
+Get **SickPuppySounds-fixed-v19.zip** (stable) from the [Releases](../../releases) page.
+
+**Testers wanted:** **v20** is a test release on the same page. It fixes the remaining tank
+"not stopping after timeout" messages. If you play tanks, please try it and report back (see *v20: testers wanted* below).
 
 ## Install
 
@@ -32,6 +35,18 @@ Get **SickPuppySounds-fixed-v19.zip** from the [Releases](../../releases) page.
 5. Start the game. There's no setting to switch on.
 
 **Back to stock sounds:** delete or rename the `CustomSounds\Desktop` folder and restart the game.
+
+## v20: testers wanted (test release, 16 Nov 2026)
+
+- **Tank track sounds now stop when the game stops them, even while the tank is still moving.** On the T-34/85,
+  T-34/76, Tiger I, Tiger II, M4A3(75) and M4A3(76) the track loops kept playing as long as the tank had any speed, so
+  a tank that drove out of range, died or despawned while moving produced "EVENT ... is not stopping after timeout"
+  20 seconds later (reported by **JimmyD3** on v19). The tracks sound the same as v19.
+- **How to test:** play tanks near other tanks (T-34s, Tigers, Shermans); let them drive out of earshot, die or
+  despawn while moving; drive one yourself, stop, switch views, and kill the engine while rolling. The text buffer
+  should stay clear and the tracks should sound as before. Report in the forum thread, good or bad; if you see the
+  message, say which vehicle it names and what was happening (a screenshot helps), and save a film if you can.
+- **Updating from v19:** copy only `CustomEffects.bank`. Until testers confirm v20, v19 stays the stable version.
 
 ## What's new in v19
 
